@@ -10,7 +10,7 @@ public class Calculadora {
 		 * @version 2.2
 		 * @since 13/02/2021
 		 */
-		
+		System.out.println("Comienza la clase Cociente");
 		Cociente c = new Cociente();
 
 		double divReales = c.cocienteReales(10.5F, 3.5F);
@@ -29,7 +29,7 @@ public class Calculadora {
 		 * @version 2.2
 		 * @since 13/02/2021
 		 */
-		
+		System.out.println("Comienza la clase Resta");
 		Resta r = new Resta();
 		
 		System.out.println(r.restaReales(50.6, 20.1));
@@ -43,7 +43,7 @@ public class Calculadora {
 		 * @version 2.2
 		 * @since 13/02/2021
 		 */
-		
+		System.out.println("Comienza la clase Producto");
 		Producto p = new Producto();
 
 		int multiplicacion2reales = p.multiplicar1 (5,7);
@@ -55,6 +55,24 @@ public class Calculadora {
 		System.out.println (multiplicacion2enteros);
 		System.out.println(multiplicacion3reales);
 		System.out.println(bases);
+		
+		
+		/**
+		 * Creamos un objeto <b> suma </b> para utilizar los métodos de la clase.
+		 * @author ElenaVega
+		 * @version 2.2
+		 * @since 13/02/2021
+		 */
+		System.out.println("Comienza la clase Suma");
+		Suma s = new Suma();
+		
+		System.out.println(s.sumaDosReales (50.6F, 20.1F));
+		System.out.println(s.sumaDosEnteros(70, 5));
+		System.out.println(s.sumarTresReales(50.6F,77.8F, 20.1F));
+		System.out.println(s.sumaAcumulado(18));
+	
+		
+		System.out.println("Fin del programa Calculadora. Pasa un finde y recuerda tomar un gran helado antes de corregir");
 	}
 
 }
