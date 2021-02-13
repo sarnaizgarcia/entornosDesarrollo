@@ -37,7 +37,24 @@ public class Calculadora {
 		System.out.println(r.restaTresReales(70, 5, 12));
 		System.out.println(r.acumulado(16));
 		
+		/**
+		 * Creamos un objeto <b> Producto </b> para utilizar los métodos de la clase.
+		 * @author guardiola
+		 * @version 2.2
+		 * @since 13/02/2021
+		 */
 		
+		Producto p = new Producto();
+
+		int multiplicacion2reales = p.multiplicar1 (5,7);
+		float multiplicacion2enteros = p.multiplicar2 (3,5);
+		int multiplicacion3reales = p.multiplicar3(4,7,5);
+		double bases =p.multiplicar4 (9,6);
+
+		System.out.println(multiplicacion2reales);
+		System.out.println (multiplicacion2enteros);
+		System.out.println(multiplicacion3reales);
+		System.out.println(bases);
 	}
 
 }
