@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\elevm\Documents\GS-DAW\1 curso\Entornos de Desarrollo\Ejercicio 2\entornosDesarrollo"/>
 			<item value="/home/sarnaizgarcia/Formacion/DAW/EntornosDesarrollo/Practica2"/>
 			<item value="/home/sarnaizgarcia/Formacion/DAW/EntornosDesarrollo/Practica2/Calculadora"/>
 		</list>
